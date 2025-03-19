@@ -1,0 +1,15 @@
+.imagen_navbar{
+    width: 100%;
+    height: auto;
+}
+/* PARA USAR MAP DE COLORES
+$colors: 
+    crimson: #8d230f,
+    forest: #1e434c,
+    rust: #9b4f0f ,
+    gold: #c99e10,
+) */
+ body{
+    background: radial-gradient(#8d230f, #1e434c, #9b4f0f, #c99e10 );
+    
+ }  
