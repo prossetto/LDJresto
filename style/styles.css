@@ -41,6 +41,16 @@ li{
     width: 800px;
     margin: 20px;
 }
+@media (max-width: 600px){
+    .carrete{
+
+        width: 98%;
+        height: auto;
+        margin: 5px;
+        padding: 0px;
+        border:solid #c99e10 1px ;
+    }
+}
 .menucarta{
     width: 400px;
     border: solid black 1px;
@@ -56,12 +66,12 @@ li{
     display: flex;
     justify-content: center;
     /* background-image: url(../complements/images/bgnd-menu.jpg); */
-    background-color: #c99e10;
+    background: linear-gradient(to bottom right, #c99e10, #6d5300);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    border-radius: 10px;
     width: fit-content;
     margin: 0 auto;
-
 }
 .tabla{
     text-align: center;
@@ -72,4 +82,8 @@ li{
 }
 .card{
     text-align: center;
+    background: linear-gradient(green,rgb(9, 73, 9),green);
+}
+.card-header{
+    font-size: large;
 }
