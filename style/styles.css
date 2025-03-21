@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
 .imagen_navbar{
     width: 100%;
     height: auto;
@@ -40,4 +44,32 @@ li{
 .menucarta{
     width: 400px;
     border: solid black 1px;
+    text-align: center;
+    margin:30px;
+
+}
+.titulopag{
+    text-align: center;
+    text-decoration: underline;
+}
+.carta{
+    display: flex;
+    justify-content: center;
+    /* background-image: url(../complements/images/bgnd-menu.jpg); */
+    background-color: #c99e10;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+.tabla{
+    text-align: center;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+}
+.card{
+    text-align: center;
 }
