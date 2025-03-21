@@ -41,9 +41,8 @@ li{
     width: 800px;
     margin: 20px;
 }
-@media (max-width: 600px){
+@media (max-width: 450px){
     .carrete{
-
         width: 98%;
         height: auto;
         margin: 5px;
