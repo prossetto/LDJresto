@@ -21,6 +21,7 @@ $colors:
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
  }
 .tarjetapromo{
     width: 300px;
@@ -124,4 +125,21 @@ p, .lindex{
 .card-body, .card{
     background: linear-gradient(to bottom right, #c99e10, #6d5300);
     opacity: 0.9;
+    margin-top: 10px;
+}
+.precio{
+    border: 1px solid black;
+    border-radius: 8px;
+    background: linear-gradient(#8d230f, #1e434c );
+    color: #f3e9c6;
+    font-size: 18px;
+    font-style: oblique;
+}
+.precop:active{
+    border: 1px solid black;
+    border-radius: 8px;
+    background: linear-gradient(#1e434c, #8d230f);
+    color: #f3e9c6;
+    font-size: 20px;
+    font-style: oblique;
 }
