@@ -27,14 +27,29 @@ $colors:
     height: 300px;
     background: radial-gradient( white 70%, #1e434c );
 }
-p, ul>li,h1,h2,h3,h4,h5{
-    color: aliceblue;
+h1,h2,h3,h4,h5{
+    color:  #f3e9c6;
+    text-decoration: underline;
 }
+
 footer{
     background-color: #1e434c;
 }
-li{
-    list-style: none;
+.active{
+    background: linear-gradient(#8d230f, #1e434c );
+}
+ul>li{
+    list-style: disc;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+p, .lindex{
+    color:  #f3e9c6;
+}
+.nav-item{
+    text-decoration: none;
 }
 .carrete{
     height: auto;
@@ -55,6 +70,9 @@ li{
     border: solid black 1px;
     text-align: center;
     margin:30px;
+    background: linear-gradient(to bottom right, #c99e10, #6d5300);
+    opacity: 0.9;
+    border-radius: 8px;
 
 }
 .titulopag{
@@ -64,8 +82,8 @@ li{
 .carta{
     display: flex;
     justify-content: center;
-    /* background-image: url(../complements/images/bgnd-menu.jpg); */
-    background: linear-gradient(to bottom right, #c99e10, #6d5300);
+    background-image: url(../complements/images/bgnd-menu.jpg);
+    /* background: linear-gradient(to bottom right, #c99e10, #6d5300); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -73,7 +91,10 @@ li{
     margin: 0 auto;
 }
 .tabla{
+    border: 1px solid black;
+    width: 100%;
     text-align: center;
+
 }
 .icons{
     width: 50px;
@@ -85,4 +106,22 @@ li{
 }
 .card-header{
     font-size: large;
+}
+.chef{
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+    justify-items: center;
+
+}
+.tablaprom{
+    background-image: url(../complements/images/bgnd-menu.jpg);
+    width: 90%;
+    margin: auto auto;
+    background-size: cover;
+
+}
+.card-body, .card{
+    background: linear-gradient(to bottom right, #c99e10, #6d5300);
+    opacity: 0.9;
 }
