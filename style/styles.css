@@ -27,6 +27,9 @@ $colors:
     width: 300px;
     height: 300px;
     background: radial-gradient( white 70%, #1e434c );
+    display: flex;
+    flex-direction: column;
+    
 }
 h1,h2,h3,h4,h5{
     color:  #f3e9c6;
@@ -52,10 +55,14 @@ p, .lindex{
 .nav-item{
     text-decoration: none;
 }
-.carrete{
+.carrete {
     height: auto;
     width: 800px;
-    margin: 20px;
+    margin: 2px;
+}
+.carousel-item, .fotocarousel{
+    width: 800px;
+    height: 500px;
 }
 @media (max-width: 450px){
     .carrete{
@@ -113,8 +120,19 @@ p, .lindex{
     height: auto;
     margin-top: 50px;
     justify-items: center;
+    animation: chefrot 3s linear 0s infinite alternate both;
 
 }
+@keyframes chefrot{
+    from{
+        rotate: 15deg;
+    }
+    to{
+        rotate: -15deg;
+    }
+} 
+
+
 .tablaprom{
     background-image: url(../complements/images/bgnd-menu.jpg);
     width: 90%;
@@ -124,7 +142,7 @@ p, .lindex{
 }
 .card-body, .card{
     background: linear-gradient(to bottom right, #c99e10, #6d5300);
-    opacity: 0.9;
+    opacity: 0.95;
     margin-top: 10px;
 }
 .precio{
@@ -134,12 +152,14 @@ p, .lindex{
     color: #f3e9c6;
     font-size: 18px;
     font-style: oblique;
+    position: absolute;
+    bottom: 10px; /* Lo coloca 10px desde el borde inferior */
+    left: 50%;
+    transform: translateX(-50%); /* Centra horizontalmente */
+    text-align: center;
+    width: 80%;
+    
 }
-.precop:active{
-    border: 1px solid black;
-    border-radius: 8px;
-    background: linear-gradient(#1e434c, #8d230f);
-    color: #f3e9c6;
+.card-text{
     font-size: 20px;
-    font-style: oblique;
 }
