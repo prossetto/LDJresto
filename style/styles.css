@@ -16,6 +16,7 @@ $colors:
  body{
     /* background: radial-gradient(#8d230f, #1e434c, #9b4f0f, #c99e10 ); */
     background: radial-gradient(#8d230f, #1e434c, #9b4f0f, #c99e10 );
+    overflow-x: hidden;
  }  
  .filapromo{
     display: flex;
